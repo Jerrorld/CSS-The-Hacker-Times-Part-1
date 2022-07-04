@@ -4,6 +4,7 @@ body {
     background-color: #eee;
     padding: 2em;
     font-family: "Source Sans Pro";
+    text-align: left;
 }
 
 .newspaper-container {
@@ -12,6 +13,7 @@ body {
     border-radius: 15px;
     width: 700px;
     padding: 1em;
+    margin: auto;
 }
 
 header {
@@ -30,12 +32,41 @@ nav li {
     list-style: none;
     display: inline-block;
     margin: auto;
-    padding: 5px;
+    padding: 0 5px;
     border-radius: 2px;
+    font-size: 90%;
 }
 
 nav {
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
-    padding: -5px;
+    
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #777;
+}
+
+.date {
+    text-align: left;
+    font-family: "Source Sans Pro";
+    color: #777;
+}
+
+h2, h5, h4 {
+    font-family: "Roboto Slab";
+}
+
+h5 {
+    color: red;
+}
+
+.front-page-article {
+    padding-right: 100px;
+}
+
+.more-articles {
+    display: inline-block;
+    width: ;
 }
