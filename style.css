@@ -62,11 +62,15 @@ h5 {
     color: red;
 }
 
-.front-page-article {
-    padding-right: 100px;
+#front-page-img {
+    width: 700px;
 }
 
-.more-articles {
+.more-articles section {
     display: inline-block;
-    width: ;
+    width: 300px;
+    padding: 24px;
+}
+.more-articles {
+    border-top: .5px solid #ddd;
 }
